@@ -1,5 +1,3 @@
-#!/usr/bin/env electron
-
 const { BrowserWindow, app, protocol, Menu } = require('electron')
 const path = require('path')
 const hyperspace = require('hyperspace')

@@ -1,12 +1,15 @@
 {
   "name": "hypertron",
   "version": "0.0.0",
-  "description": "WIP - nothing to see here",
-  "main": "index.js",
+  "description": "Electron based runtime for Hyperdrive apps",
+  "main": "electron.js",
   "dependencies": {
-    "electron": "^9.1.1",
+    "electron": ">=9",
+    "hyperdrive": "^10.15.1",
     "hyperspace": "^3.6.2",
-    "mime": "^2.4.6"
+    "mime": "^2.4.6",
+    "minimist": "^1.2.5",
+    "resolve": "^1.17.0"
   },
   "devDependencies": {},
   "repository": {
