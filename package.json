@@ -1,0 +1,22 @@
+{
+  "name": "hypertron",
+  "version": "0.0.0",
+  "description": "WIP - nothing to see here",
+  "main": "index.js",
+  "dependencies": {
+    "electron": "^9.1.1",
+    "hyperspace": "^3.6.2",
+    "mime": "^2.4.6"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mafintosh/hypertron.git"
+  },
+  "author": "Mathias Buus (@mafintosh)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mafintosh/hypertron/issues"
+  },
+  "homepage": "https://github.com/mafintosh/hypertron"
+}
