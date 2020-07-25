@@ -3,6 +3,9 @@
   "version": "0.0.0",
   "description": "Electron based runtime for Hyperdrive apps",
   "main": "electron.js",
+  "bin": {
+    "hypertron": "./bin.js"
+  },
   "dependencies": {
     "electron": ">=9",
     "hyperdrive": "^10.15.1",
