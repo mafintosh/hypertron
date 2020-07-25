@@ -1,6 +1,6 @@
 {
   "name": "hypertron",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Electron based runtime for Hyperdrive apps",
   "main": "electron.js",
   "bin": {
