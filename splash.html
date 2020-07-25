@@ -185,8 +185,9 @@
       const b = progress('Preloading assets')
       const c = progress('Launching app')
 
-      const Drives = require('./lib/drive-cache')
-      const Manifest = require('./lib/manifest')
+      const path = require('path')
+      const Drives = require(path.join(__dirname, './lib/drive-cache'))
+      const Manifest = require(path.join(__dirname, './lib/manifest'))
 
       const d = new Drives(hyperspace)
       const m = new Manifest(d, hyperspace.config.app)
